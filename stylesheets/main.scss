@@ -1,0 +1,17 @@
+@import 'partials/variables';
+@import 'partials/nav';
+body {
+	background-color: $color-body;
+}
+/*sets up the font for the rest of the page*/
+.font {
+	color: $color-font;
+	text-align: center;
+	border-style: double;
+}
+/*extends font to the p tag and gets rid of the border*/
+.paragraph {
+	@extend .font;
+	font-style: italic;
+	border: none;
+}

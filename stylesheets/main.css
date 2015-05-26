@@ -1,0 +1,15 @@
+body {
+  background-color: green; }
+
+/*sets up the font for the rest of the page*/
+.font, .paragraph {
+  color: white;
+  text-align: center;
+  border-style: double; }
+
+/*extends font to the p tag and gets rid of the border*/
+.paragraph {
+  font-style: italic;
+  border: none; }
+
+/*# sourceMappingURL=main.css.map */
